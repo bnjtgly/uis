@@ -1,6 +1,5 @@
 class RegistrationsController < Devise::RegistrationsController
-  # include RackSessionFix
-  # before_action :authorization
+  include RackSessionFix
   respond_to :json
 
   def create
