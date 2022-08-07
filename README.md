@@ -1,4 +1,4 @@
-# SimpleRent Tenant Application API
+# UIS API
 
 ## Prerequisites
 [![Ruby Style Guide](https://img.shields.io/badge/Ruby-3.1.2-red)](https://www.ruby-lang.org/en/news/2022/04/12/ruby-3-1-2-released)
