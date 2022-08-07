@@ -13,10 +13,9 @@ class RegistrationValidator
 
   validates :email, format: { with: URI::MailTo::EMAIL_REGEXP }
   validates_confirmation_of :password
-  validate :required, :email_exist, :password_requirements
+  validate :required, :email_exist, :password_requirements, :valid_dob
 
   def submit
-    init
     persist!
   end
 
@@ -47,6 +46,6 @@ class RegistrationValidator
   end
 
   def valid_dob
-    errors.add(:date_of_birth, EMAIL_EXISTS) unless valid_date?(date_of_birth)
+    errors.add(:date_of_birth, INVALID_DOB) unless valid_date?(date_of_birth)
   end
 end
