@@ -54,8 +54,8 @@ end
 
 gem 'audited'
 gem 'awesome_print'
-gem 'draper'
 gem 'devise'
+gem 'draper'
 gem 'interactor-rails'
 gem 'jwt'
 gem 'pagy'

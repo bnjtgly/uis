@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class RegistrationValidator
   include Helper::BasicHelper
   include ActiveModel::API
@@ -20,6 +22,7 @@ class RegistrationValidator
   end
 
   private
+
   def persist!
     return true if valid?
 
