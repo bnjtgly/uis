@@ -1,24 +1,23 @@
-# README
+# SimpleRent Tenant Application API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Prerequisites
+[![Ruby Style Guide](https://img.shields.io/badge/Ruby-3.1.2-red)](https://www.ruby-lang.org/en/news/2022/04/12/ruby-3-1-2-released)
+[![Ruby Style Guide](https://img.shields.io/badge/Rails-7.0.3-brightgreen)](https://rubygems.org/gems/rails)
 
-Things you may want to cover:
+### First-time setup
+1. Install Ruby
+2. Download and install postgresql.
+3. Run the following command.
+```bash
+$ gem install rails
+```
+```bash
+$ bundle install
+```
 
-* Ruby version
+### Setup Database
+```bash
+$ rails db:create db:migrate db:seed
+```
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+The server will run on **localhost:3000**.
