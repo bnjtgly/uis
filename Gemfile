@@ -55,6 +55,7 @@ end
 gem 'audited'
 gem 'awesome_print'
 gem 'devise'
+gem 'devise-jwt'
 gem 'draper'
 gem 'interactor-rails'
 gem 'jwt'
