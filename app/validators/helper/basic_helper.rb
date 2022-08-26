@@ -5,6 +5,7 @@ module Helper
     PASSWORD_REQUIREMENTS = 'Password should have more than 6 characters including 1 lower letter, 1 uppercase letter, 1 number and 1 symbol'
     EMAIL_EXISTS = 'Email address already exist.'
     INVALID_DOB = 'Invalid. Please change to YYYY-MM-DD.'
+    REQUIRED_MESSAGE = 'This field is required.'
 
     def valid_date?(value)
       return true if value == 'never'
