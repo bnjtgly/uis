@@ -16,4 +16,6 @@ Rails.application.routes.draw do
       resources :users, param: :user_id, only: %i[index]
     end
   end
+
+  get '/health' => 'health#index'
 end
